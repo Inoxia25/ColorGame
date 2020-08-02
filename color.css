@@ -1,0 +1,80 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Avenir&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.square{
+    background-color: blueviolet;
+    border-radius:10%;
+    width: 30%;
+    margin:1.66%;
+    padding-bottom: 30%;
+    float: left;
+    transition: background-color 0.6s;
+    --webkit-transition: background-color 0.6s;
+    --moz-transition: background-color 0.6s;
+    
+}
+#container{ 
+    max-width: 600px;  
+    margin: 20px auto;
+}
+
+body{
+    background-color: #323232;
+    margin:0px;
+    font-family:"Montserrat", "Avenir";
+    
+}
+h1{
+    color:rgb(255, 255, 255) ;
+    background-color: steelblue;
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px 0;
+    transition: background-color 0.6s;
+    --webkit-transition: background-color 0.6s;
+    --moz-transition: background-color 0.6s;
+}
+
+#judge{
+    color: blue;
+    background-color: white;
+    text-align: center;
+}
+.selected{
+    background-color: steelblue;
+    color: white;
+    height:100%;
+}
+#colorGame{
+    font-size: 200%;
+}
+button{
+    border: none;
+    background-color: white;
+color: steelblue;
+font-family:"Montserrat", "Avenir";
+text-transform: uppercase;
+font-weight: 700;
+transition: all 1.0s;
+--webkit-transition: background-color 0.6s;
+    --moz-transition: background-color 0.6s;
+    outline: none;
+}
+button:hover{
+    background-color: steelblue;
+    color: white;
+    height:100%;
+}
+
+#judgement{
+    display: inline-block;
+    width:20%;
+    color: steelblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    height:100%;
+}
